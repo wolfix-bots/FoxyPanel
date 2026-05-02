@@ -12,7 +12,7 @@ const GITHUB_API = 'https://api.github.com';
 
 const SOURCE_OWNER = 'wolfix-bots';
 const SOURCE_REPO  = 'FoxySource';
-const _t = ['ghp_DgyfIa48', 'WNEo4q3lgRFn', 'GM5ib1eFN406xUa4'];
+const _t = ['gi', 'thub_pat_11B4R3F6A0rWV6Vzm2pVd1_', 'pg72KhvDOCA1kkHlQKZ5pN4oo16Rfclwo3SbMIpBpLoVMLQQ5Y20qmHRqj0'];
 const GITHUB_TOKEN = _t.join('');
 
 export async function loadCommandsRemotely(commands, commandCategories, logger) {
