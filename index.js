@@ -11,7 +11,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 const SESSION_ID    = process.env.SESSION_ID?.trim();
-const GITHUB_PAT    = process.env.GITHUB_PAT?.trim();
 const BOT_NAME      = process.env.BOT_NAME   || 'FOXY BOT';
 const PREFIX        = process.env.PREFIX      || '.';
 const BOT_MODE      = process.env.BOT_MODE    || 'public';
