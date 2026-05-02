@@ -30,10 +30,6 @@ if (!SESSION_ID) {
     process.exit(1);
 }
 
-if (!GITHUB_PAT) {
-    console.warn('⚠️  GITHUB_PAT not set — commands will not load. Add it to .env');
-}
-
 // ─── Logger ──────────────────────────────────────────────────────────────────
 const logger = pino({ level: 'info', transport: { target: 'pino-pretty', options: { colorize: true, translateTime: 'HH:MM:ss', ignore: 'pid,hostname' } } });
 
